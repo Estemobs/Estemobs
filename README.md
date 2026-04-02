@@ -1,7 +1,7 @@
-<h1 align="center">Salut, moi c'est Estemobs</h1>
+<h1 align="center">Bonjour, moi c'est Estemobs</h1>
 
 <p align="center">
-	Developpeur passionne par le code propre, les projets utiles et l'apprentissage continu.
+	Je ne suis pas developpeur, mais j'aime creer des projets utiles.
 </p>
 
 <p align="center">
@@ -12,15 +12,9 @@
 
 ## A propos de moi
 
-- J'aime construire des projets utiles avec une attention particuliere a la qualite du code.
-- Je travaille sur des outils, des automatisations et des applications web.
-- Je suis toujours partant pour apprendre de nouvelles technos.
-
-## Stack
-
-<p>
-	<img src="https://skillicons.dev/icons?i=python,js,ts,html,css,react,nodejs,git,github,vscode,linux" alt="Stack" />
-</p>
+- J'aime coder avec l'IA pour aller plus vite et mieux structurer mes idees.
+- J'aime creer des projets concrets et utiles.
+- Je contribue aux projets que j'utilise au quotidien.
 
 ## Stats GitHub
 
@@ -33,12 +27,12 @@
 </p>
 
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Estemobs&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Estemobs&layout=compact&theme=radical&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Langs" />
 </p>
 
 ## Projets mis en avant
 
-- [Mes repositories](https://github.com/Estemobs?tab=repositories)
+- [Mes depots](https://github.com/Estemobs?tab=repositories)
 - [Mes contributions](https://github.com/Estemobs)
 
 ## Contact
