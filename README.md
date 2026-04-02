@@ -19,10 +19,6 @@
 ## Stats GitHub
 
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api?username=Estemobs&show_icons=true&theme=radical&hide_border=true" alt="Estemobs GitHub stats" />
-</p>
-
-<p align="center">
 	<img src="https://streak-stats.demolab.com?user=Estemobs&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
