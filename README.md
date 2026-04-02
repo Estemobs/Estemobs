@@ -33,7 +33,9 @@
 </p>
 
 <p align="center">
-	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Estemobs&theme=radical" alt="Top languages by commits" />
+	<a href="https://github.com/Estemobs?tab=repositories" target="_blank">
+		<img src="https://img.shields.io/badge/Explorer%20mes%20langages%20(interactif)-GitHub-181717?style=for-the-badge&logo=github" alt="Explorer mes langages" />
+	</a>
 </p>
 
 ## Projets mis en avant
