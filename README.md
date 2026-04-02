@@ -25,14 +25,10 @@
 </p>
 
 
-## Projets mis en avant
+## Projets
 
 - [Mes projets](https://github.com/Estemobs?tab=repositories)
 - [Mes contributions](https://github.com/Estemobs)
-
-## Contact
-
-- GitHub: [@Estemobs](https://github.com/Estemobs)
 
 ---
 
