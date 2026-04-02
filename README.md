@@ -26,8 +26,14 @@
 	<img src="https://streak-stats.demolab.com?user=Estemobs&theme=radical&hide_border=true" alt="GitHub Streak" />
 </p>
 
+## Top langages
+
 <p align="center">
-	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Estemobs&layout=compact&theme=radical&hide_border=true&langs_count=8&cache_seconds=1800" alt="Top Langs" />
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Estemobs&theme=radical" alt="Top languages by repository" />
+</p>
+
+<p align="center">
+	<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Estemobs&theme=radical" alt="Top languages by commits" />
 </p>
 
 ## Projets mis en avant
