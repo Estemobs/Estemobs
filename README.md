@@ -47,8 +47,5 @@
 
 ---
 
-<p align="center">
-	Merci pour la visite.
-</p>
 
 
