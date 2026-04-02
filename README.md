@@ -1,3 +1,5 @@
+---
+
 <h1 align="center">Bonjour, moi c'est Estemobs</h1>
 
 <p align="center">
@@ -9,12 +11,6 @@
 		<img src="https://komarev.com/ghpvc/?username=Estemobs&style=for-the-badge&color=0e75b6" alt="Profile views" />
 	</a>
 </p>
-
-## A propos de moi
-
-- J'aime coder avec l'IA pour aller plus vite et mieux structurer mes idees.
-- J'aime creer des projets concrets et utiles.
-- Je contribue aux projets que j'utilise au quotidien.
 
 ## Stats GitHub
 
@@ -31,7 +27,7 @@
 
 ## Projets mis en avant
 
-- [Mes depots](https://github.com/Estemobs?tab=repositories)
+- [Mes projets](https://github.com/Estemobs?tab=repositories)
 - [Mes contributions](https://github.com/Estemobs)
 
 ## Contact
