@@ -50,39 +50,6 @@
 
 ---
 
-## 🗂️ Mes projets
-
-### 🤖 Bots Discord
-
-| Projet | Description | Langage |
-|--------|-------------|---------|
-| [**ddcbot**](https://github.com/Estemobs/ddcbot) | Bot Discord polyvalent gérant de nombreuses fonctionnalités de serveur via `discord.py` | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**cocoyico**](https://github.com/Estemobs/cocoyico) | Bot Discord pour enregistrer et gérer des notes personnalisées | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**CommandeAI**](https://github.com/Estemobs/CommandeAI) | Bot Discord qui extrait et résout des exercices depuis des photos grâce à l'IA | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**NerdMC**](https://github.com/Estemobs/NerdMC) | Relaie en temps réel les messages Minecraft vers un canal Discord | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnubash&logoColor=white) |
-
-### 🌐 Réseau & Sécurité
-
-| Projet | Description | Langage |
-|--------|-------------|---------|
-| [**NetMapGuard**](https://github.com/Estemobs/NetMapGuard) | Surveille et analyse en temps réel le trafic réseau pour détecter les connexions suspectes | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-| [**SiteStatsRaspberryPi**](https://github.com/Estemobs/SiteStatsRaspberryPi) | Interface web pour surveiller les performances d'un Raspberry Pi 4 en temps réel | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-
-### ✈️ Aviation
-
-| Projet | Description | Langage |
-|--------|-------------|---------|
-| [**vfr-radio-phrase-guide**](https://github.com/Estemobs/vfr-radio-phrase-guide) | Générateur interactif de phrases radio VFR pour l'auto-information (UNICOM) | ![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white) |
-| [**xplane-124atc-speech-linux**](https://github.com/Estemobs/xplane-124atc-speech-linux) | Lit à voix haute les messages ATC du plugin 124thATC pour X-Plane 11 sur Linux | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white) |
-
-### 🔧 Scripts & Utilitaires
-
-| Projet | Description | Langage |
-|--------|-------------|---------|
-| [**ScriptBash**](https://github.com/Estemobs/ScriptBash) | Collection de scripts Bash pratiques pour l'automatisation système | ![Shell](https://img.shields.io/badge/-Shell-4EAA25?style=flat&logo=gnubash&logoColor=white) |
-
----
-
 ## 🏆 Trophées GitHub
 
 <div align="center">
@@ -96,7 +63,5 @@
 <div align="center">
 
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Estemobs.Estemobs)
-
-⭐ **N'hésite pas à star les projets qui t'intéressent !** ⭐
 
 </div>
