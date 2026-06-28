@@ -56,42 +56,6 @@
 
 ---
 
-### 🚀 Projets sélectionnés / Featured projects
-
-**🤖 Discord Bots**
-| Repo | Description |
-|---|---|
-| [ddcbot](https://github.com/Estemobs/ddcbot) | Bot Discord multifonction (Python / discord.py) |
-| [NerdMC](https://github.com/Estemobs/NerdMC) | Relaie en temps réel le chat Minecraft vers Discord |
-| [cocoyico](https://github.com/Estemobs/cocoyico) | Bot Discord pour enregistrer et gérer des notes |
-| [CommandeAI](https://github.com/Estemobs/CommandeAI) | Extrait et résout des exercices à partir de photos grâce à l'IA |
-
-**✈️ Aviation**
-| Repo | Description |
-|---|---|
-| [vfr-radio-phrase-guide](https://github.com/Estemobs/vfr-radio-phrase-guide) | Générateur interactif de phraséologie radio VFR pour pilotes |
-| [xplane-124atc-speech-linux](https://github.com/Estemobs/xplane-124atc-speech-linux) | Lit à voix haute les messages ATC du plugin 124thATC sous X-Plane 11 |
-
-**🛡️ Réseau & Sécurité**
-| Repo | Description |
-|---|---|
-| [NetMapGuard](https://github.com/Estemobs/NetMapGuard) | Surveille le trafic réseau en temps réel et détecte les connexions suspectes |
-
-**🎮 Minecraft**
-| Repo | Description |
-|---|---|
-| [UltimateChatTranslator](https://github.com/Estemobs/UltimateChatTranslator) | Traduit en direct le chat, les panneaux et les menus en jeu |
-
-**🖥️ Self-hosting & Linux**
-| Repo | Description |
-|---|---|
-| [SiteStatsRaspberryPi](https://github.com/Estemobs/SiteStatsRaspberryPi) | Tableau de bord web pour surveiller un Raspberry Pi 4 |
-| [ScriptBash](https://github.com/Estemobs/ScriptBash) | Collection de scripts Bash bien pratiques |
-
-<sub>...et oui, il y a aussi un site [RickRoll](https://github.com/Estemobs/SiteWebRickRoll) 😏</sub>
-
----
-
 ### 📊 GitHub Stats
 
 <p align="center">
