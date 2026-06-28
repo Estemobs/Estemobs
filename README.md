@@ -56,22 +56,6 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Estemobs&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Estemobs&theme=radical&hide_border=true" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Estemobs&theme=radical" alt="Top languages by repository" />
-</p>
-
----
-
 <div align="center">
 
 🏰 <a href="https://discord.chat/domainedecasinus">Domaine de Casinus</a> &nbsp;|&nbsp; 📍 Andorra
