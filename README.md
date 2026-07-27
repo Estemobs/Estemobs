@@ -34,7 +34,11 @@
 - ✈️ **Aviation & flight sim** — VFR pilot tools
 - 🏰 **Domaine de Casinus** — Minecraft community tools & bots
 
----
+### 📊 Activité / Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Estemobs&theme=github-dark" />
+</p>
 
 ---
 
