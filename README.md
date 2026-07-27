@@ -39,85 +39,12 @@
 ### 📊 Statistiques / Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Estemobs&show_icons=true&theme=github_dark&hide_border=true&count_private=true&hide_title=true&include_all_commits=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Estemobs&layout=compact&theme=github_dark&hide_border=true&hide_title=true&langs_count=6" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Estemobs&theme=github-dark&hide_border=true" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Estemobs&theme=github-dark&hide_border=true" width="70%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Estemobs&theme=github-dark" />
 </p>
-
----
-
-### 🚀 Projets phares / Featured projects
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3 align="center">EduSync-AD</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/EduSync-AD">Gestion du cycle de vie des comptes Active Directory pour les établissements scolaires.</a>
-        <br>
-        <img src="https://img.shields.io/badge/Python-3776AA?style=flat-square" />
-        <img src="https://img.shields.io/badge/PyQt6-41CD52?style=flat-square" />
-        <img src="https://img.shields.io/badge/LDAP-FF6F00?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">NetMapGuard</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/NetMapGuard">Visualisation temps réel du trafic réseau sur une carte du monde.</a>
-        <br>
-        <img src="https://img.shields.io/badge/Python-3776AA?style=flat-square" />
-        <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square" />
-        <img src="https://img.shields.io/badge/GeoIP-FF6F00?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">ddcbot</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/ddcbot">Bot Discord tout-en-un : modération, économie, jeux, RSS, IA.</a>
-        <br>
-        <img src="https://img.shields.io/badge/Python-3776AA?style=flat-square" />
-        <img src="https://img.shields.io/badge/Discord.py-5865F2?style=flat-square" />
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">UltimateChatTranslator</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/UltimateChatTranslator">Traduction automatique des chats Minecraft en temps réel.</a>
-        <br>
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square" />
-        <img src="https://img.shields.io/badge/Fabric-808080?style=flat-square" />
-        <img src="https://img.shields.io/badge/Minecraft-00AA00?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3 align="center">tvtracker</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/tvtracker">Suivi de séries, animes et films — auto-hébergé.</a>
-        <br>
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3 align="center">vfr-radio-phrase-guide</h3>
-      <p align="center">
-        <a href="https://github.com/Estemobs/vfr-radio-phrase-guide">Générateur de phraséologie radio VFR pour pilotes.</a>
-        <br>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square" />
-      </p>
-    </td>
-  </tr>
-</table>
 
 ---
 
