@@ -6,6 +6,7 @@
 
 <a href="https://github.com/Estemobs"><img src="https://komarev.com/ghpvc/?username=Estemobs&style=flat-square&color=58A6FF&label=Profile+views" /></a>
 <a href="https://discord.com/users/438669868091310092"><img src="https://img.shields.io/badge/Discord-@estemobs-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
+<a href="https://keyserver.ubuntu.com/pks/lookup?op=get&search=0xCEA97C9C"><img src="https://img.shields.io/badge/PGP-0xCEA97C9C-0093DD?style=flat-square&logo=gnuprivacyguard&logoColor=white" /></a>
 <img src="https://img.shields.io/badge/Andorra-📍-58A6FF?style=flat-square" />
 <img src="https://img.shields.io/badge/Linux-🐧-58A6FF?style=flat-square" />
 
