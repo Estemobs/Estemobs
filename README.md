@@ -36,18 +36,10 @@
 - ✈️ **Aviation & flight sim** — VFR pilot tools
 - 🏰 **Domaine de Casinus** — Minecraft community tools & bots
 
-### 📊 Stats & Activité / Stats & Activity
+### 📊 Stats / Stats
 
 <p align="center">
   <img src="https://ghstats.dev/api/card?username=Estemobs&show_icons=true&theme=github-dark&hide_border=true" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Estemobs&theme=github-dark" alt="Contribution graph" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Estemobs&theme=github-dark&hide_border=true" alt="GitHub Streak" />
 </p>
 
 ---
@@ -55,18 +47,7 @@
 ### 💻 Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <br>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Discord.py-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://ghstats.dev/api/langs?username=Estemobs&theme=github-dark&layout=donut&hide_border=true" alt="Top Languages" />
 </p>
 
 ---
