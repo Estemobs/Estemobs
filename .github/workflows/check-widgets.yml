@@ -1,0 +1,55 @@
+name: Vérifier les widgets du README
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check-widgets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tester les URLs des widgets
+        id: check
+        run: |
+          failed_file=$(mktemp)
+          grep -oE 'https://[^") ]+' README.md | sort -u | while read -r u; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$u")
+            echo "HTTP $code — $u"
+            if [ "$code" != "200" ]; then
+              echo "$u" >> "$failed_file"
+            fi
+          done
+          if [ -s "$failed_file" ]; then
+            echo "failed=true" >> "$GITHUB_OUTPUT"
+            {
+              echo "failing-urls<<EOF"
+              cat "$failed_file"
+              echo "EOF"
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo "failed=false" >> "$GITHUB_OUTPUT"
+            echo "Tous les widgets répondent."
+          fi
+
+      - name: Créer une issue si un widget est cassé
+        if: steps.check.outputs.failed == 'true'
+        run: |
+          if gh issue list --repo "$GITHUB_REPOSITORY" --state open --label widget-check | grep -q .; then
+            echo "Une issue de panne existe déjà, on ne spamme pas."
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "⚠️ Un widget du README est en panne" \
+              --body "Ces URLs ne répondent plus (HTTP != 200) :${{ steps.check.outputs.failing-urls }}" \
+              --label widget-check
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
