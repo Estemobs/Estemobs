@@ -22,11 +22,12 @@ jobs:
         run: |
           failed_file=$(mktemp)
           grep -oE 'https://[^") ]+' README.md | sort -u | while read -r u; do
-            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 "$u")
+            code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 20 "$u")
             echo "HTTP $code — $u"
-            if [ "$code" != "200" ]; then
-              echo "$u" >> "$failed_file"
-            fi
+            case "$code" in
+              2*|3*) ;;
+              *) echo "$u" >> "$failed_file" ;;
+            esac
           done
           if [ -s "$failed_file" ]; then
             echo "failed=true" >> "$GITHUB_OUTPUT"
@@ -43,12 +44,16 @@ jobs:
       - name: Créer une issue si un widget est cassé
         if: steps.check.outputs.failed == 'true'
         run: |
+          gh label create widget-check \
+            --color d73a4a \
+            --description "Widget du README en panne" \
+            --force >/dev/null 2>&1 || true
           if gh issue list --repo "$GITHUB_REPOSITORY" --state open --label widget-check | grep -q .; then
             echo "Une issue de panne existe déjà, on ne spamme pas."
           else
             gh issue create --repo "$GITHUB_REPOSITORY" \
               --title "⚠️ Un widget du README est en panne" \
-              --body "Ces URLs ne répondent plus (HTTP != 200) :${{ steps.check.outputs.failing-urls }}" \
+              --body "Ces URLs ne répondent plus (HTTP ni 2xx ni 3xx) :${{ steps.check.outputs.failing-urls }}" \
               --label widget-check
           fi
         env:
