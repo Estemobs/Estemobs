@@ -21,14 +21,16 @@ jobs:
         id: check
         run: |
           failed_file=$(mktemp)
-          grep -oE 'https://[^") ]+' README.md | sort -u | while read -r u; do
+          # Utilisation d'une process substitution pour éviter le sous-shell
+          while read -r u; do
             code=$(curl -sL -o /dev/null -w "%{http_code}" --max-time 20 "$u")
             echo "HTTP $code — $u"
             case "$code" in
               2*|3*) ;;
               *) echo "$u" >> "$failed_file" ;;
             esac
-          done
+          done < <(grep -oE 'https?://[^") ]+' README.md | sort -u)
+
           if [ -s "$failed_file" ]; then
             echo "failed=true" >> "$GITHUB_OUTPUT"
             {
@@ -40,6 +42,7 @@ jobs:
             echo "failed=false" >> "$GITHUB_OUTPUT"
             echo "Tous les widgets répondent."
           fi
+          rm -f "$failed_file"
 
       - name: Créer une issue si un widget est cassé
         if: steps.check.outputs.failed == 'true'
@@ -53,7 +56,7 @@ jobs:
           else
             gh issue create --repo "$GITHUB_REPOSITORY" \
               --title "⚠️ Un widget du README est en panne" \
-              --body "Ces URLs ne répondent plus (HTTP ni 2xx ni 3xx) :${{ steps.check.outputs.failing-urls }}" \
+              --body "Ces URLs référencent des widgets qui ne répondent plus (HTTP ni 2xx ni 3xx) :${{ steps.check.outputs.failing-urls }}" \
               --label widget-check
           fi
         env:
